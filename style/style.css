@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+.hero-section {
+    background-image: url(/img/hero-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 102vh;
+    text-align: center;
+    padding: 60px 60px;
+}
+
+.zuri-logo {
+    margin-bottom: 50px;
+}
+
+.the-hero h2 {
+    margin-bottom: 40px;
+     color: #514949;
+}
+
+.the-hero p {
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+}
+
+.btns {
+    display: inline-flex;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-right: 30px;
+    border: 1px #E7332B solid;
+}
+
+.red-btn {
+    color: #fff;
+    background: #E7332B;
+}
+
+.red-btn:hover {
+    color: #E7332B;
+    background: #FFF;
+}
+
+.white-btn {
+    color: #E7332B;
+    background: #fff;
+    border-color: #E7332B;
+}
+
+.white-btn:hover {
+    color: #fff;
+    background: #E7332B;
+    border-color: #E7332B;
+}
+
+.the-hero {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prog-title {
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.prog-title h3 {
+    font-size: 14px;
+    color: #E7332B;
+}
+
+.prog-title p {
+    font-size: 24px;
+    line-height: 40px;
+    color: #514949;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+a { 
+    text-decoration: none;
+    color: #E7332B;
+}
+
+.row   {
+    display: flex;
+    /* padding: 0 30px; */
+}
+
+.pg-cardbox {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+
+/* .card-container {
+        max-width: 1240px !important;
+} */
+
+.cardbox img {
+    padding-bottom: 40px;
+}
+
+.cardbox p {
+    padding-bottom: 40px;
+}
+
+.mid-cardbox {
+    margin: 0 20px;
+}
+
+.con-details {
+    display: flex;
+   justify-content: space-around;
+    margin-bottom: 56px;
+}
+
+.con-details h3, .con-details p {
+    margin-bottom: 20px;
+}
+
+.links {
+    display: block !important;
+}
+
+.con-icons img {
+    width: 18px;
+    margin-right: 6px;
+}
+
+footer {
+    margin: 200px 90px 0;
+}
+
+.hr-line {
+    margin: 0 60px;
+}
+.copyright {
+    text-align: center;
+}
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 35px;
+    color: #514949;
+    padding-bottom: 90px;
+}
